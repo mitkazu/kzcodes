@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>eGFRの計算</title>
+    <link rel="stylesheet" href="eGFR計算.css">
+  </head>
+  <body>
+<h1>eGFRの計算</h1>
+  <div class="appframe">
+    <div class="contents">
+
+      <!--性別を選ぶ-->
+      <span>性別</span>
+      <div class="radio-buttons">
+        <input id="radio" type="radio" name="radio" value="male" checked>
+        <label for="male">男性</label>
+      </div>
+      <div class="radio-buttons">
+        <input id="radio" type="radio" name="radio" value="female">
+        <label for="female">女性</label>
+      </div>
+
+     <!--Cr入力-->
+      <form action="#" method="post">
+    	<p>Cr　：<input type="text" name="cre" value="1">mg/dL</p>
+      <!--年齢入力-->
+       <form action="#" method="post">
+      <p>年齢：<input type="text" name="age" value="50">歳</p>
+
+       <!--ボタン-->
+       <button type="button" name="button" value="button">
+           <font>計算</font>
+       </button>
+
+       <div id="answer">　</div>
+    </div>
+  </div>
+  <script src="eGFR計算.js" charset="utf-8"></script>
+  </body>
+</html>
