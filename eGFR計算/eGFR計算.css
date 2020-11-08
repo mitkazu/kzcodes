@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+h1{
+  text-align: center;
+  color:rgb(255, 255, 255)
+}
+
+body{
+  text-align: left;
+  background:rgb(37, 62, 168);
+}
+
+
+
+
+.appframe{
+  background:rgb(249, 249, 249);
+  width: 420px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+
+
+
+
+}
