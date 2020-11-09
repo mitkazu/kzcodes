@@ -6,6 +6,7 @@ h1{
 }
 
 body{
+  width: 75%;
   text-align: left;
   background:rgb(37, 62, 168);
 }
