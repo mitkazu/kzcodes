@@ -6,9 +6,12 @@ h1{
 }
 
 body{
-  width: 75%;
-  text-align: left;
+  width: 50%;
+  text-align: center;
   background:rgb(37, 62, 168);
+  margin: auto;
+  padding: 20px;
+  
 }
 
 
