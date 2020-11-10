@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>標準体重の計算</title>
+    <link rel="stylesheet" href="標準体重.css">
+  </head>
+  <body>
+<h1>標準体重の計算</h1>
+  <div class="appframe">
+    <div class="contents">
+
+      <!--性別を選ぶ-->
+      <span>性別</span>
+      <form id="radio-buttons">
+        <input id="radio" type="radio" name="radio" value="male" checked>
+        <label for="male">男性</label>
+        <input id="radio" type="radio" name="radio" value="female">
+        <label for="female">女性</label>
+      </form>
+
+     <!--身長入力-->
+      <form action="#" method="post">
+    	<p>身長：<input type="text" id="height" name="height" value="">cm</p>
+      <!--体重入力-->
+       <form action="#" method="post">
+       <p>体重：<input type="text" id="weight" name="weight" value="">kg</p>
+
+      <!--年齢入力-->
+       <form>
+      <p>年齢：
+        <select name="age" id="selectbox">
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        </select>
+      歳</p>
+
+       <!--ボタン-->
+       <button id="button" type="button" name="button" value="button">
+           <font>計算</font>
+       </button>
+
+       <div id="answer">　</div>
+    </div>
+  </div>
+  <script src="標準体重.js" charset="utf-8"></script>
+  </body>
+</html>
