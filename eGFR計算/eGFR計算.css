@@ -16,6 +16,12 @@ img {
   	}
 }
 
+form{
+  width: auto;
+  font-size: 16px;
+
+}
+
 h1{
   text-align: center;
   color:rgb(255, 255, 255)
@@ -24,7 +30,7 @@ h1{
 body{
   text-align: left;
   background:rgb(37, 62, 168);
-  font-size: 7vw;
+  font-size: 8vw;
 }
 
 
@@ -37,3 +43,8 @@ body{
   height:100vw;
   padding: 10px;
   border-radius: 10px;
+
+
+
+
+}
