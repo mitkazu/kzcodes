@@ -24,6 +24,7 @@ h1{
 body{
   text-align: left;
   background:rgb(37, 62, 168);
+  font-size: 7vw;
 }
 
 
@@ -33,11 +34,6 @@ body{
   background:rgb(249, 249, 249);
   width: 90%;
   margin: auto;
-  height:50%;
+  height:100vw;
   padding: 10px;
   border-radius: 10px;
-
-
-
-
-}
