@@ -1,0 +1,59 @@
+@charset "UTF-8";
+* {
+	float: none;
+	position: static;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+@media screen and (max-width:480px) {
+
+	/*　画面サイズが480px以下の場合ここの記述が適用される　*/
+  main {
+  		width: 100%;
+  	}
+}
+
+input{
+  width: auto%;
+  font-size: 16px;
+
+}
+
+h1{
+  text-align: center;
+  color:rgb(255, 255, 255)
+}
+
+body{
+  text-align: left;
+  background:rgb(151, 167, 19);
+  font-size: 5vw;
+}
+
+.radiobutton{
+  width: 90%;
+  font-size: 3.2vw;
+  margin: 1px;
+}
+
+
+.selectbox{
+  width: auto;
+  font-size: auto;
+}
+
+
+
+
+.appframe{
+  background:rgb(255, 255, 255);
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+
+}

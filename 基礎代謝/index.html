@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>基礎代謝の計算</title>
+    <link rel="stylesheet" href="基礎代謝.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1.0, user-scalable=0" />
+  </head>
+  <body>
+<h1>基礎代謝の計算</h1>
+  <div class="appframe">
+    <div class="contents">
+
+      <!--性別を選ぶ-->
+      <span>性別</span>
+      <form id="gender-select">
+        <input id="radio" type="radio" name="radio" value="male" checked>
+        <label for="male">男性</label>
+        <input id="radio" type="radio" name="radio" value="female">
+        <label for="female">女性</label>
+      </form>
+
+     <!--身長入力-->
+      <form action="#" method="post">
+    	<p>身長：<input type="text" id="height" name="height" value="">cm</p>
+      <!--体重入力-->
+       <form action="#" method="post">
+       <p>体重：<input type="text" id="weight" name="weight" value="">kg</p>
+       <!--年齢入力-->
+        <form action="#" method="post">
+        <p>年齢：<input type="text" id="age" name="weight" value="">歳</p>
+</form></form></form>
+      <!--生活活動強度を選ぶ-->
+      <span>生活活動強度</span>
+      <form id="strength">
+        <input id="radio" type="radio" name="str" value="1.3" checked>
+        <label for="1.3">Ⅰ(低い:ほとんど座位か臥位)</label>
+        <br>
+        <input id="radio" type="radio" name="str" value="1.5">
+        <label for="1.5">Ⅱ(やや低い:登校し体育に参加)</label>
+        <br>
+        <input id="radio" type="radio" name="str" value="1.7">
+        <label for="1.7">Ⅲ(適度:登校し部活動に参加)</label>
+        <br>
+        <input id="radio" type="radio" name="str" value="1.9">
+        <label for="1.9">Ⅳ(高い:終日激しいトレーニング)</label>
+      </form>
+      </div>
+
+       <!--ボタン-->
+       <button id="button" type="button" name="button" value="button">
+           <font>計算</font>
+       </button>
+
+       <div id="answer">　</div>
+    </div>
+  </div>
+  <script src="基礎代謝.js" charset="utf-8"></script>
+  </body>
+</html>
