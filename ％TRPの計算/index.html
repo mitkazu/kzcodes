@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>％TRPの計算</title>
+    <link rel="stylesheet" href="％TRPの計算.css">
+  </head>
+  <body>
+<h1>％TRPの計算</h1>
+  <div class="appframe">
+    <div class="contents">
+
+      <!--性別を選ぶ-->
+      <span>％TRP＝1-血Cr*尿P/(血P*尿Cr)</span>
+      <span>％TRP≧95%ならリン補充</span>
+
+     <!--血液検査値入力-->
+      <form action="#" method="post">
+      <div class="plasma">
+    	<p>血清Cr：<input type="text" id="pcr" name="pcr" value="">mg/dL</p>
+      <p>血清P：<input type="text" id="pp" name="pp" value="">mg/dL</p>
+      </div>
+      <!--尿検査値入力-->
+      <div class="urea">
+       <form action="#" method="post">
+       <p>尿中Cr：<input type="text" id="ucr" name="ucr" value="">mg/dL</p>
+       <p>尿中P：<input type="text" id="up" name="up" value="">mg/dL</p>
+       </div>
+       <!--ボタン-->
+       <button id="button" type="button" name="button" value="button">
+           <font>計算</font>
+       </button>
+
+       <div id="answer">　</div>
+    </div>
+  </div>
+  <script src="％TRPの計算.js" charset="utf-8"></script>
+  </body>
+</html>
